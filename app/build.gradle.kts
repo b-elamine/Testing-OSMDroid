@@ -42,12 +42,9 @@ dependencies {
 
     // OSMdroid
     implementation("org.osmdroid:osmdroid-android:6.1.18")
-    implementation("org.osmdroid:osmdroid-wms:6.1.18")
-    implementation("org.osmdroid:osmdroid-geopackage:6.1.18")
-    implementation(libs.osmdroid.mapsforge)
-
-    // OSMBonus from github
-    implementation("com.github.mkergall:osmbonuspack:6.9.0")
+    //implementation("org.osmdroid:osmdroid-wms:6.1.18")
+    //implementation("org.osmdroid:osmdroid-geopackage:6.1.18")
+    //implementation(libs.osmdroid.mapsforge)
 
     implementation("org.apache.commons:commons-lang3:3.8.1")
     implementation("com.google.code.gson:gson:2.8.6")
